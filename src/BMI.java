@@ -18,7 +18,7 @@ public class BMI {
      * @param person A Person class object
      * @return Returns the age of the person as an int
      */
-    public int calculateAge(final Person person) {
+    public static int calculateAge(final Person person) {
         Calendar calendar = Calendar.getInstance(); //Initializes the calendar object
         int currentYear = calendar.get(Calendar.YEAR); //Retrieves the current year
         return currentYear - person.getBirthYear(); //Returns the calculated age
@@ -29,7 +29,7 @@ public class BMI {
      * @param person A Person class object
      * @return Returns the BMI of a person as a double
      */
-    public double calculateBMI(final Person person) {
+    public static double calculateBMI(final Person person) {
         return person.getWeight()/(person.getHeight() * person.getHeight()); //Returns the calculated BMI
     }
 
@@ -38,7 +38,7 @@ public class BMI {
      * @param person A Person class object
      * @return Returns a String classification of the calculated BMI based on a pre-determined index
      */
-    public String classifyBMI(final Person person) {
+    public static String classifyBMI(final Person person) {
         double BMI = calculateBMI(person); //Passes the person object into the calculateBMI method and stores the output
         if(BMI < 18.5) {
             return "Underweight"; //Returns 'underweight' if BMI is under 18.5

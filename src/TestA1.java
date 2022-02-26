@@ -57,9 +57,9 @@ public class TestA1 {
         System.out.printf("%16s", "Full Name: ");
         System.out.printf("%s%n", person1.getFullName()); //Prints the full name from the person1 object using the getFullName method
         System.out.printf("%16s", "Age: ");
-        System.out.printf("%s%n", bmi.calculateAge(person1)); //Calculates the age by passing in the person1 object into the calculateAge method of bmi and prints it
+        System.out.printf("%d%n", bmi.calculateAge(person1)); //Calculates the age by passing in the person1 object into the calculateAge method of bmi and prints it
         System.out.printf("%16s", "Year: ");
-        System.out.printf("%s%n", person1.getBirthYear()); //Prints the birth year from the person1 object using the getBirthYear method
+        System.out.printf("%d%n", person1.getBirthYear()); //Prints the birth year from the person1 object using the getBirthYear method
         System.out.printf("%16s", "Height: ");
         System.out.printf("%.2f%n", person1.getHeight()); //Prints the height from the person1 object using the getHeight method
         System.out.printf("%16s", "Weight: ");
@@ -71,9 +71,9 @@ public class TestA1 {
         System.out.printf("%16s", "Full Name: ");
         System.out.printf("%s%n", person2.getFullName()); //Prints the full name from the person2 object using the getFullName method
         System.out.printf("%16s", "Age: ");
-        System.out.printf("%s%n", bmi.calculateAge(person2)); //Calculates the age by passing in the person2 object into the calculateAge method of bmi and prints it
+        System.out.printf("%d%n", bmi.calculateAge(person2)); //Calculates the age by passing in the person2 object into the calculateAge method of bmi and prints it
         System.out.printf("%16s", "Year: ");
-        System.out.printf("%s%n", person2.getBirthYear()); //Prints the birth year from the person2 object using the getBirthYear method
+        System.out.printf("%d%n", person2.getBirthYear()); //Prints the birth year from the person2 object using the getBirthYear method
         System.out.printf("%16s", "Height: ");
         System.out.printf("%.2f%n", person2.getHeight()); //Prints the height from the person2 object using the getHeight method
         System.out.printf("%16s", "Weight: ");
